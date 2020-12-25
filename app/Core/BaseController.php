@@ -3,14 +3,12 @@
 namespace App\Core;
 
 use App\Http\Controllers\Controller;
-use Dingo\Api\Routing\Helpers;
 use League\Fractal\Serializer\ArraySerializer;
 
 use App\Contracts\Services\Logic\IUserAppService;
 
 class BaseController extends Controller
 {
-    use Helpers;
 
     private $userAppService;
     protected $errors = false;
@@ -44,7 +42,7 @@ class BaseController extends Controller
      * @param mixed|null $resource
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function successResponse($message, $resource = null)
+    protected function successResponse($resource = null, $message)
     {
         $response = [
             'message' => $message,

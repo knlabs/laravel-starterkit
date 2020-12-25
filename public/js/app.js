@@ -49886,8 +49886,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/nuzululhuda_/Documents/project/rumah-mentoring/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/nuzululhuda_/Documents/project/rumah-mentoring/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/nuzululhuda_/Documents/project/laravel-pattern/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/nuzululhuda_/Documents/project/laravel-pattern/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
